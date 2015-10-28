@@ -1,0 +1,11 @@
+ form { width: 35%;}
+ form  label { height: 2em; text-align:right;margin-right:0.5px;}
+ table tr first-child input [type="text"]{ vertical-align: text-left;width: 40%;height: 2em;text-align:left;}
+ /*input +  input [type="input"],[type="reset"]{ vertical-align: text-right;
+ width: 40%;height: 2em;text-align:right;}
+ float: left; }*/
+  [type="submit"],[type="reset"]{clear:left;}
+ [type="reset"]{clear:none;}
+ table { text-align:center; vertical-align: middle;position:relative;  left=5em;}
+ #botones {margin-left: 52%; margin-top: 2%;}
+ 

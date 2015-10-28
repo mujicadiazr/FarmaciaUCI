@@ -1,0 +1,10 @@
+INSERT INTO Vale(ID, Fecha, Hora) VALUES (?, ?, ?);
+INSERT INTO Medicamento(Nombre, Tipo, Descripcion, Costo, Cantidad, UMedida, Lote, FechaVencimiento) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+INSERT INTO Trabajador(CI, Nombre, PrimerApellido, SegundoApellido, Telefono, DirPart, Usuario, Contrasenna, Rol) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
+INSERT INTO Suscripcion(CI, Nombre, PrimerApellido, SegundoApellido) VALUES (?, ?, ?, ?);
+INSERT INTO Vuelta(ID, Anno, Mes) VALUES (?, ?, ?);
+INSERT INTO GestionAlmohadillas(VueltaID, SuscripcionCI, TrabajadorUsuario) VALUES (?, ?, ?);
+INSERT INTO VentaMedicamentos(MedicamentoNombre, MedicamentoTipo, ValeID, TrabajadorUsuario, cantMedicamento) VALUES (?, ?, ?, ?, ?);
+INSERT INTO Reclamacion(Documentoid, datosReales) VALUES (?, ?);
+INSERT INTO Documento(id, TrabajadorUsuario, fecha, datosFactura) VALUES (?, ?, ?, ?);
+INSERT INTO InformeRecepcion(Documentoid, importe) VALUES (?, ?);

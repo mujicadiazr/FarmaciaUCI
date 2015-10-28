@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!--i class="icon-heart"></i-->
+		<title>Nuevo Usuario</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/forms.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css" />
+		
+	</head>
+	<body>
+		<form action="" class="form-horizontal">
+			<fieldset class="centrado">
+				<legend>Datos del usuario</legend>
+				
+				<div class="control-group" >
+                	<label class="control-label" for="inputNombre">Nombre</label>
+                	<div class="controls">
+                    	<input type="text" id="inputNombre" onkeypress="return permite(event,'car');" required>
+                	</div>
+            	</div>
+				<div class="control-group">
+                	<label class="control-label" for="inputPrimerApell">Primer Apellido</label>
+                	<div class="controls">
+                    	<input type="text" id="inputPrimerApell" onkeypress="return permite(event,'car');" required>
+                	</div>
+            	</div>
+				<div class="control-group">
+                	<label class="control-label" for="inputSegundoApell">Segundo Apellido</label>
+                	<div class="controls">
+                    	<input type="text" id="inputSegundoApell" onkeypress="return permite(event,'car');" required>
+                	</div>
+            	</div>
+				<div class="control-group">
+                	<label class="control-label" for="inputUser">Usuario</label>
+                	<div class="controls">
+                    	<input type="text" id="inputUser" onkeypress="return permite(event,'car');" required>
+                	</div>
+            	</div>
+				<div class="control-group">
+                	<label class="control-label" for="inputPass">Contrase&ntilde;a</label>
+                	<div class="controls">
+                    	<input type="password" id="inputPass" onkeypress="return permite(event,'num_car_sim');" required>
+                	</div>
+            	</div>
+				<div class="control-group">
+                	<label class="control-label" for="inputCi">Numero de Identidad</label>
+                	<div class="controls">
+                    	<input type="text" id="inputCi" onkeypress="return permite(event,'num');" required>
+                	</div>
+            	</div>
+				<div class="control-group">
+                	<label class="control-label" for="inputTelf">Tel&eacute;fono</label>
+                	<div class="controls">
+                    	<input type="text" id="inputTelf" onkeypress="return permite(event,'num');">
+                	</div>
+            	</div>
+            	<div class="control-group">
+                	<label class="control-label" for="inputDirParticular">Direcci&oacute;n Particular</label>
+                	<div class="controls">
+                    	<input type="text" id="inputDirParticular" onkeypress="return permite(event,'num_car_sim');">
+                	</div>
+            	</div>	
+				<div class="control-group form-actions">
+    				<button type="submit"  class="btn btn-success btn-large pull-left">Crear usuario</button>
+                    <div class="controls">
+                         <input type="button" class="btn pull-left btn-large" value="Cancelar" />
+                     <div>
+    			</div> 
+			</fieldset>
+		</form>
+
+        <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--Propios JS-->    
+    <script type="text/javascript" src="../js/propios/permitirEscribir.js"></script>
+
+    <!--Bootstrap JS-->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+	</body>
+</html>

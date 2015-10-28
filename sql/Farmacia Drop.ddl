@@ -1,0 +1,20 @@
+ALTER TABLE GestionAlmohadillas DROP CONSTRAINT FKGestionAlm748711;
+ALTER TABLE GestionAlmohadillas DROP CONSTRAINT FKGestionAlm291767;
+ALTER TABLE Reclamacion DROP CONSTRAINT "Es una";
+ALTER TABLE InformeRecepcion DROP CONSTRAINT "Es un";
+ALTER TABLE VentaMedicamentos DROP CONSTRAINT "Esta en";
+ALTER TABLE VentaMedicamentos DROP CONSTRAINT Tiene;
+ALTER TABLE Documentos DROP CONSTRAINT Genera;
+ALTER TABLE VentaMedicamentos DROP CONSTRAINT Vende;
+ALTER TABLE GestionAlmohadillas DROP CONSTRAINT Entrega;
+DROP TABLE Vale;
+DROP TABLE Medicamento;
+DROP TABLE Trabajador;
+DROP TABLE Suscripcion;
+DROP TABLE Vuelta;
+DROP TABLE Documentos;
+DROP TABLE GestionAlmohadillas;
+DROP TABLE Reclamacion;
+DROP TABLE InformeRecepcion;
+DROP TABLE VentaMedicamentos;
+

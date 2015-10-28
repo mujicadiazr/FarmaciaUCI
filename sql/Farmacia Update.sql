@@ -1,0 +1,10 @@
+UPDATE Vale SET Fecha = ?, Hora = ? WHERE ID = ?;
+UPDATE Medicamento SET Descripcion = ?, Costo = ?, Cantidad = ?, UMedida = ?, Lote = ?, FechaVencimiento = ? WHERE Nombre = ? AND Tipo = ?;
+UPDATE Trabajador SET CI = ?, Nombre = ?, PrimerApellido = ?, SegundoApellido = ?, Telefono = ?, DirPart = ?, Contrasenna = ?, Rol = ? WHERE Usuario = ?;
+UPDATE Suscripcion SET Nombre = ?, PrimerApellido = ?, SegundoApellido = ? WHERE CI = ?;
+UPDATE Vuelta SET Anno = ?, Mes = ? WHERE ID = ?;
+UPDATE GestionAlmohadillas SET TrabajadorUsuario = ? WHERE VueltaID = ? AND SuscripcionCI = ?;
+UPDATE VentaMedicamentos SET TrabajadorUsuario = ?, cantMedicamento = ? WHERE MedicamentoNombre = ? AND MedicamentoTipo = ? AND ValeID = ?;
+UPDATE Reclamacion SET datosReales = ? WHERE Documentoid = ?;
+UPDATE Documento SET TrabajadorUsuario = ?, fecha = ?, datosFactura = ? WHERE id = ?;
+UPDATE InformeRecepcion SET importe = ? WHERE Documentoid = ?;

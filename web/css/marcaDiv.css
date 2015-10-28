@@ -1,0 +1,16 @@
+/* 
+    Document   : marcaDiv
+    Created on : Jun 9, 2013, 6:16:29 PM
+    Author     : randy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body div {
+    border: darkturquoise solid thin; 
+}
+
